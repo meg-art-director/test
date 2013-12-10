@@ -1,0 +1,637 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sample CSS</title>
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----------------------------------------------------------------------*/
+#container{
+	padding:10px;}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, a {
+	font-family: Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+}
+p, li, a {
+	font-size: 12px;
+	line0height: 1.5em;
+}
+p, li{
+	margin-bottom:6px;
+	}
+li {
+	line-height: 1.25em;
+	margin-left:2em;
+	list-style:disc;
+	
+}
+p{
+	line-height: 1.5em;}
+h1 {
+	color: #999;
+	font-size:2em;
+	font-weight: bold;
+	margin-bottom:.25em;
+	margin-top:1em;
+}
+
+
+h1:before {
+	content: "// "
+}
+h2.title{
+	color: #999;
+	font-weight: bold;
+	font-size: 14px;
+	line-height:18px;
+	margin-bottom:1empx;
+	border-top: solid 1px #999;
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+}
+.location {
+	color: #e05b36;
+	margin-bottom: .25em;
+	margin-top:.75em;
+	font-weight: bold;
+	font-size:.8em;
+}
+
+.title{
+	line-height:1.25em;
+	
+	
+	}
+.time{
+	margin-bottom:.25em;
+	font-weight:bold;
+	font-size:1.25em;
+	}
+.moderator{
+	font-weight:bold;
+	color:black;
+	}
+.moderator_category{
+	font-weight:inherit;
+	color:#e05b36;}
+.subsession{
+border-bottom:dashed 1px #999;
+padding-bottom:1em;
+margin-bottom:1em;}
+.subsession:last-of-type{
+	border-bottom:none;
+	margin-bottom:-.25em;}
+.subsession:first-of-type {
+	margin-top:1.5em;}
+
+h3.title {
+	font-size:1.5em;
+	color:#1C95BA;
+	font-weight:bold;
+	margin-bottom:.15em;
+	line-height:1.15em;
+	}
+</style>
+</head>
+
+<body class="events">
+<div id="container">
+  <header id="header"> </header>
+  <div id="main" role="main">
+    <div id="flash"> </div>
+    <div class="track" id="332d22781613cf57d9c7ab98a34af71b">
+      <h1>Plenum</h1>
+      <div class="session">
+        <h2 class="title">Kick-Off deutscher Einzelhandel –
+          Status Quo und Entwicklungsperspektiven</h2>
+        <h3 class="location">Saal Maritim</h3>
+        <h3 class="time">09:00 - 10:30</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Dunja Hayali, ZDF</p>
+        <div class="subsession">
+          <h3 class="title">Eröffnung des Deutschen Handelskongresses 2013</h3>
+          <h4 class="time">09:00 - 09:10</h4>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Kunden binden, erfolgreich handeln</h3>
+          <h4 class="time">09:10 - 09:30</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Josef Sanktjohanser, Präsident, Handelsverband Deutschland – HDE</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Die Customer Journey – Ein Blick hinter die Kulissen komplexer Entscheidungsprozesse </h3>
+          <h4 class="time">09:30 - 10:00</h4>
+          <div class="text">
+            <ul>
+              <li>Die weltweite Digitalisierung des Alltags – Zunehmende Emanzipation und Machtgewinn der Verbraucher</li>
+              <li>Die Customer Journey im digitalen Zeitalter wird zunehmend komplex und kurvenreich</li>
+              <li>Welche Veränderungen und Herausforderungen ergeben sich für den Handel?</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Matthias  Hartmann, Vorstandsvorsitzender, GfK SE</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Handelsvisionen 2020 –
+            Nachhaltiger Erfolg mit vernetzten Kanälen</h3>
+          <h4 class="time">10:00 - 10:30</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Dr. Michael Otto, Vorsitzender des Aufsichtsrats, Otto (GmbH &amp; Co. KG)</p>
+        </div>
+      </div>
+      <div class="session">
+        <h2 class="title">Der Handel auf Wachstumskurs</h2>
+        <h3 class="location">Saal Maritim</h3>
+        <h3 class="time">11:00 - 11:30</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Dunja Hayali, ZDF</p>
+        <div class="subsession">
+          <h3 class="title">Expansion auf schwedisch – Offline und online</h3>
+          <h4 class="time">11:00 - 11:30</h4>
+          <div class="text">
+            <ul>
+              <li>Das Einrichtungshaus – Quelle der Inspiration; neue Standorte und&nbsp;Formate (mit Chancen und Hürden)</li>
+              <li>Der IKEA FAMILY Club – Gemeinsames Interesse für Heimeinrichtung</li>
+              <li>IKEA Website – Inspiration und Information, Erfahrungen und Perspektiven des Online-Möbelhandels</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Peter Betzel, Geschäftsführer, IKEA Deutschland GmbH &amp; Co. KG</p>
+        </div>
+      </div>
+      <div class="session">
+        <h2 class="title">Digitalisierung &amp; Multi-Channel –
+          Chancen und Herausforderungen</h2>
+        <h3 class="location">Saal Maritim</h3>
+        <h3 class="time">11:30 - 13:00</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Dunja Hayali, ZDF</p>
+        <div class="subsession">
+          <h3 class="title">IMPULSE: 
+            Welche Auswirkungen hat die digitale Revolution auf die Medienbranche?</h3>
+          <h4 class="time">11:30 - 12:00</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Hans-Jürgen Jakobs, Chefredakteur, Handelsblatt GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Dr. Andreas Wiele, Vorstand BILD-Gruppe und Zeitschriften, Axel Springer AG</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Maßgeschneiderte Konzepte –
+            Vertikale und digitale Innovationen bei Seidensticker</h3>
+          <h4 class="time">12:00 - 12:30</h4>
+          <div class="text">
+            <ul>
+              <li>Seidensticker – Ein Traditionshaus mit unermüdlichem Innovationsgeist</li>
+              <li>Vertikalisierung – Vom Stoffballen bis zur Ladentheke</li>
+              <li>Distributionskanäle im Wandel – Handel muss da passieren, wo der moderne Kunde ist</li>
+              <li>Neue Wege der Kundenkommunikation durch moderne Technologien und Marketingtools</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Frank Seidensticker, Geschäftsführender Gesellschafter, Textilkontor Walter Seidensticker GmbH &amp; Co. KG</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">CEO-ROUND-TABLE: 
+            Anpassungsdruck im Non-Food Handel – Erfolgreiche Strategien
+            traditioneller Stationärhändler</h3>
+          <h4 class="time">12:30 - 13:00</h4>
+          <div class="text">
+            <ul>
+              <li>Welche weiteren Entwicklungen sind in den&nbsp;verschiedenen Non-Food Kategorien zu erwarten?</li>
+              <li>Wie sind die Auswirkungen auf die traditionellen Stationärhändler?</li>
+              <li>Was sind erfolgreiche Strategien, insbesondere&nbsp;in der Weiterverwendung von Handelsflächen?</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Dr. Peter Breuer, Director, McKinsey &amp; Company, Inc.</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Michael Kliger, Managing Director International, eBay Enterprise</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Wilhelm Josten, Geschäftsführer, BUTLERS GmbH &amp; Co. KG</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Dr.  Daniel Terberger, Vorstandsvorsitzender, KATAG AG</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Alexander Kudlich, CEO, Rocket Internet GmbH</p>
+        </div>
+      </div>
+      <div class="session">
+        <h2 class="title">HDE-Delegiertenversammlung</h2>
+        <h3 class="location">Saal Maritim</h3>
+        <h3 class="time">14:00 - 17:00</h3>
+      </div>
+      <div class="session">
+        <h2 class="title">Deutscher Handelspreis 2013 &amp; Retailers’ Night</h2>
+        <h3 class="location">Saal Maritim</h3>
+        <h3 class="time">19:30 - 23:00</h3>
+        <div class="text">
+          <p>Erleben Sie die Verleihung des <strong>Deutschen Handelspreises 2013</strong>&nbsp;im Rahmen eines glanzvollen Gala-Events. Ausgezeichnet&nbsp;werden herausragende deutsche Handelsunternehmen&nbsp;aus&nbsp;dem Mittelstand und in der Kategorie „Lebenswerk“ eine Unternehmerpersönlichkeit,<br>
+            die mit ihrem Handel(n) die Branche&nbsp;grundlegend geprägt hat. Die Nominierung und Auswahl der&nbsp;Preisträger erfolgt durch eine Jury namhafter Branchenvertreter.</p>
+          <p>Ein weiterer emotionaler Höhepunkt des Abends ist die Kür des&nbsp;„Gesichts des Handels“, einem offenen Ausschreibungswettbewerb&nbsp;des Handelsverbands Deutschland (HDE), an dem alle&nbsp;Mitarbeiterinnen und Mitarbeiter des Einzelhandels teilnehmen können. Bewerben Sie sich jetzt!<br>
+            <br>
+            Lassen Sie sich überraschen, wer 2013 die Gewinner der begehrten&nbsp;Auszeichnungen sind&nbsp;und feiern Sie anschließend gemeinsam mit den Preisträgern,&nbsp;unseren Top-Referenten und den Kongressteilnehmern die&nbsp;<strong>Retailers‘ Night</strong>. Eine hervorragende Gelegenheit für ungezwungenes&nbsp;Business Networking und spannende Gespräche&nbsp;unter Kollegen.</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="33d12adf4c4e53000e7d571492c50faf">
+      <h1>Networking </h1>
+      <div class="session">
+        <h2 class="title">Kaffee- und Kommunikationspause auf der Retail World</h2>
+        <h3 class="location">Grand Hall EG</h3>
+        <h3 class="time">10:30 - 11:00</h3>
+      </div>
+      <div class="session">
+        <h2 class="title">Lunch- und Kommunikationspause auf der Retail World | Im Anschluss: 3 Parallele Strategieforen </h2>
+        <h3 class="location">Grand Hall EG</h3>
+        <h3 class="time">13:00 - 14:15</h3>
+      </div>
+      <div class="session">
+        <h2 class="title">Kaffee- und Kommunikationspause auf der Retail World | Im Anschluss: 3 Parallele Strategieforen &amp; Masterclass I</h2>
+        <h3 class="location">Grand Hall EG</h3>
+        <h3 class="time">15:45 - 16:30</h3>
+      </div>
+      <div class="session">
+        <h2 class="title">Sektempfang &amp; Get-Together auf der Retail World</h2>
+        <h3 class="location">Grand Hall EG</h3>
+        <h3 class="time">18:00 - 19:30</h3>
+        <div class="subsession">
+          <h3 class="title">Business Speed Dating – 45 Minuten / 10 wertvolle Businesskontakte</h3>
+          <h4 class="location">Saal Berlin E</h4>
+          <h4 class="time">18:30 - 19:15</h4>
+          <div class="text">
+            <p>Knüpfen Sie beim <strong>Business Speed Dating</strong> wertvolle Geschäftskontakte. Hier treffen Sie unsere hochkarätigen Referenten und Kongressteilnehmer, unter ihnen:</p>
+            <p><strong>Jürgen Schulte-Laggenbeck</strong>, Otto Group ++ <strong>Dr. Stephan Zoll</strong>, ebay ++ <strong>Wilhelm Josten</strong>, Butlers ++ <strong>Jörg Hieber</strong>, Hieber’s Frische Center ++ <strong>Dr. Kai Hudetz</strong>, IfH ++ <strong>Enno Däneke</strong>, FutureManagementGroup ++ <strong>Martin Beiten</strong>, YOUCOOK ++ <strong>Dr. Andreas Froschmeyer</strong>, DACHSER, u.v.m.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="aaf91608b6741ff19dcf989172a390e9">
+      <h1>Strategieforum 1</h1>
+      <div class="session">
+        <h2 class="title">1) STRATEGIEFORUM:
+          Future of Retail – Vom Handels- zum Innovationsunternehmen</h2>
+        <h3 class="location">Salon Riga</h3>
+        <h3 class="time">14:15 - 15:45</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Andreas Späne, Partner &amp; Geschäftsführer, Booz &amp; Company GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Peter Heckmann, Partner &amp; Geschäftsführer, Leiter der Consumer &amp; Retail Practice DACH, Booz &amp; Company GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Doug Nesbit, Transformation &amp; Strategy Director, Home Retail Group Plc</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Dr. Stephan Zoll, Vice President, eBay Germany</p>
+        <div class="subsession">
+          <h3 class="title">Retail 2020: Innovation als Erfolgsrezept im stationären Handel</h3>
+          <h4 class="time">14:15 - 14:35</h4>
+          <div class="text">
+            <ul>
+              <li>Omni-Channel wurde zum Hygienefaktor</li>
+              <li>Nur Händler bestehen, die durch ständige Innovationen Kundenbindung und -frequenz sicherstellen</li>
+              <li>Sich immer wieder neu zu erfinden liegt nicht in der DNA des Handels – Eine Transformation zu einem Innovationsunternehmen ist notwendig</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Peter Heckmann, Partner &amp; Geschäftsführer, Leiter der Consumer &amp; Retail Practice DACH, Booz &amp; Company GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Reinventing Argos as a Digital Retail Leader</h3>
+          <h4 class="time">14:35 - 14:55</h4>
+          <div class="text">
+            <ul>
+              <li>Transforming Argos to win in a rapidly evolving consumer world</li>
+              <li>Changing the capability and culture from an analogue to a digital business</li>
+            </ul>
+            <p><em>(Vortrag in englischer Sprache)</em></p>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Doug Nesbit, Transformation &amp; Strategy Director, Home Retail Group Plc</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Commerce Revolution – eBay als Innovationspartner des Handels</h3>
+          <h4 class="time">14:55 - 15:15</h4>
+          <div class="text">
+            <ul>
+              <li>Das neue Handelsumfeld aus Sicht von eBay – Was sind die Erfolgsfaktoren für den Handel von morgen?</li>
+              <li>eBay-Studie „Zukunft des Handels“ – Wie wollen die Verbraucher in der Zukunft einkaufen?</li>
+              <li>Innovationstreiber eBay – So kann der Online-Marktplatz als starker Partner Händlern helfen, im neuen Handelsumfeld erfolgreich zu sein</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Dr. Stephan Zoll, Vice President, eBay Germany</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">ROUND-TABLE: 
+            Quo Vadis Handel 2020 – Ist der deutsche Handel bereit für den Wandel zum Innovationsunternehmen?</h3>
+          <h4 class="time">15:15 - 15:45</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Peter Heckmann, Partner &amp; Geschäftsführer, Leiter der Consumer &amp; Retail Practice DACH, Booz &amp; Company GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Doug Nesbit, Transformation &amp; Strategy Director, Home Retail Group Plc</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Dr. Stephan Zoll, Vice President, eBay Germany</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="0b48044af49a8ac206dfa821b539c49b">
+      <h1>Strategieforum 2</h1>
+      <div class="session">
+        <h2 class="title">2) STRATEGIEFORUM:
+          Big Data – Der Schlüssel zu mehr Wertschöpfung für Händler?</h2>
+        <h3 class="location">Salon Dublin</h3>
+        <h3 class="time">14:15 - 15:45</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Gerd Bovensiepen, Partner und Retail &amp; Consumer Leader Germany &amp; Europe, PwC</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Matthew Tod, Partner Consulting, PwC UK</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Thomas Storck, Mitglied der Geschäftsführung, GALERIA Kaufhof GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Christian Gries, Geschäftsführer, Gries Deco Company GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Caroline Ritter, Head of Global Marketing &amp; Customer Experience, HUGO BOSS AG</p>
+        <div class="subsession">
+          <h3 class="title">The Power of Big Data for UK Retailers</h3>
+          <h4 class="time">14:15 - 14:35</h4>
+          <div class="text">
+            <ul>
+              <li>Was sind die relevanten Daten für den Erfolg im&nbsp;Onlinehandel?</li>
+              <li>Welche Analysen sind mit welchen Tools möglich?</li>
+            </ul>
+            <p><em>(Vortrag in englischer Sprache)</em></p>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Matthew Tod, Partner Consulting, PwC UK</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Big Data aus Sicht eines Multi-Channel Warenhauses</h3>
+          <h4 class="time">14:35 - 15:00</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Thomas Storck, Mitglied der Geschäftsführung, GALERIA Kaufhof GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Multi-Channel und Big Data – Die Chance für die Filialisten</h3>
+          <h4 class="time">15:00 - 15:25</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Christian Gries, Geschäftsführer, Gries Deco Company GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">ROUND-TABLE:
+            Kundendaten als Basis der digitalen Wertschöpfung im Handel</h3>
+          <h4 class="time">15:25 - 15:45</h4>
+          <div class="text">
+            <ul>
+              <li>In welchen Bereichen können Händler Big Data effektiv nutzen?</li>
+              <li>Wo liegen die größten Wertschöpfungspotenziale im Hinblick auf Umsatzsteigerung oder Kostenoptimierung?</li>
+              <li>Welche neuen Geschäftsmodelle ergeben sich aus der Nutzung von Big Data für den Handel?</li>
+              <li>Welche Verantwortung haben Händler im Umgang&nbsp;mit Kundendaten?</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Caroline Ritter, Head of Global Marketing &amp; Customer Experience, HUGO BOSS AG</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Matthew Tod, Partner Consulting, PwC UK</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Thomas Storck, Mitglied der Geschäftsführung, GALERIA Kaufhof GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Christian Gries, Geschäftsführer, Gries Deco Company GmbH</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="6eac4cbb9528ffda725bf4a4ca7c1e31">
+      <h1>Strategieforum 3</h1>
+      <div class="session">
+        <h2 class="title">3) STRATEGIEFORUM:
+          Lebensmitteleinzelhandel – Wachstum durch Mehrwert Geschäftsmodelle und innovative Partnerschaften</h2>
+        <h3 class="location">Salon Wien</h3>
+        <h3 class="time">14:15 - 15:45</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Ulrich Bay, Mitglied der Geschäftsleitung &amp; Leiter Practice Group Handel, Kienbaum Management Consultants GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Markus Lessing, Vorsitzender Geschäftsführer, DeutschlandCard GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Christof Becker, Inhaber, CB Management GmbH &amp; ehem. Geschäftsführer, NORDSEE GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Martin Beiten, Inhaber, YOUCOOK GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Jörg Hieber, Firmengründer &amp; Beiratsvorsitzender, Hieber´s Frische Center KG</p>
+        <div class="subsession">
+          <h3 class="title">Preiswahrnehmung verbessern</h3>
+          <h4 class="time">14:15 - 14:45</h4>
+          <div class="text">
+            <ul>
+              <li>Woran macht der Kunde seine Preiswahrnehmung fest?</li>
+              <li>Wie wird sich die Preiswahrnehmung der Kunden&nbsp;zukünftig entwickeln?</li>
+              <li>Welche innovativen Strategien zur Sicherung einer positiven Preiswahrnehmung gibt es?</li>
+              <li>Wie kann durch die bewusste Beeinflussung der Preiswahrnehmung die Frequenz auch bei Mehrwert-Geschäftsmodellen gesichert werden?</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Ulrich Bay, Mitglied der Geschäftsleitung &amp; Leiter Practice Group Handel, Kienbaum Management Consultants GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Dem Konsumenten auf der Spur – Kaufverhaltensbasierte Customer Insights im LEH effektiv nutzen</h3>
+          <h4 class="time">14:45 - 15:15</h4>
+          <div class="text">
+            <ul>
+              <li>Aktuelle Herausforderungen für den Lebensmitteleinzelhandel</li>
+              <li>Generierung und Analyse von umfassendem Kundenwissen durch&nbsp;Multipartner-Bonusprogramme</li>
+              <li>Konkrete Einsatzmöglichkeiten von kaufverhaltensbasierten Customer Insights für Handel und Hersteller</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Markus Lessing, Vorsitzender Geschäftsführer, DeutschlandCard GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">IMPULSE: 
+            Wachstum im Lebensmitteleinzelhandel durch innovative Mehrwert-Geschäftsmodelle und Partnerschaften</h3>
+          <h4 class="time">15:15 - 15:45</h4>
+          <div class="text">
+            <ul>
+              <li>„Neue Gastrokonzepte des Lebensmitteleinzelhandels – Königsweg oder Renditegrab?“ (Christof Becker)</li>
+              <li>„Customized Food for Cooking“ (Martin Beiten)</li>
+              <li>„Mehrwert durch mehr&nbsp;Kundenorientierung“ (Jörg Hieber)</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Martin Beiten, Inhaber, YOUCOOK GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Jörg Hieber, Firmengründer &amp; Beiratsvorsitzender, Hieber´s Frische Center KG</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Christof Becker, Inhaber, CB Management GmbH &amp; ehem. Geschäftsführer, NORDSEE GmbH</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="584bf2680330ff2f426fd238f26efb50">
+      <h1>Strategieforum 4</h1>
+      <div class="session">
+        <h2 class="title">4) STRATEGIEFORUM:
+          Was ist die Rolle des Händlers in der Zukunft? Lernen von den Retailinnovationen im Automobilhandel</h2>
+        <h3 class="location">Salon Riga</h3>
+        <h3 class="time">16:30 - 18:00</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Philipp Grosse Kleimann, Partner Automotive Competence Center, Roland Berger Strategy Consultants</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Prof. Dr. Björn Bloching, Leiter Competence Center Marketing &amp; Sales/Partner, Roland Berger Strategy Consultants</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Alexander Bugge, Gründer und Geschäftsführer, MeinAuto.de</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Ulrich Fromme, Vize-Präsident, Zentralverband Deutsches Kraftfahrzeuggewerbe – ZDK</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Malte Krüger, Managing Director, mobile.de</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Jürgen Tauscher, Vorsitzender des Vorstands, Fahrzeug-Werke LUEG AG</p>
+        <div class="subsession">
+          <h3 class="title">ROUND-TABLE:
+            Die Rolle des Handels in der Zukunft –
+            Im Spannungsfeld zwischen Flagship-Stores und Internet-Vertrieb</h3>
+          <h4 class="time">16:30 - 18:00</h4>
+          <div class="text">
+            <ul>
+              <li>Welche neuen Vertriebsformate (physisch und virtuell) sind im Handel zu erwarten?</li>
+              <li>Was ist die Rolle des stationären Händlers im Vertriebsmodell der Zukunft?</li>
+              <li>Welche Rolle werden Intermediäre wie z. B. mobile.de übernehmen?</li>
+              <li>Wie kann der Einsatz von Smart Data den persönlichen und reibungslosen Einkauf über alle Kontaktpunkte ermöglichen?</li>
+              <li>Wie kann das Produkterlebnis durch neue Technologien und Services am PoS intensiviert werden?</li>
+              <li>Wie lässt sich Social Media erfolgreich zur individuellen Kundenansprache einsetzen?</li>
+              <li>Was kann der Handel von der Automobilbranche lernen?</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Prof. Dr. Björn Bloching, Leiter Competence Center Marketing &amp; Sales/Partner, Roland Berger Strategy Consultants</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Alexander Bugge, Gründer und Geschäftsführer, MeinAuto.de</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Ulrich Fromme, Vize-Präsident, Zentralverband Deutsches Kraftfahrzeuggewerbe – ZDK</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Malte Krüger, Managing Director, mobile.de</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Jürgen Tauscher, Vorsitzender des Vorstands, Fahrzeug-Werke LUEG AG</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="961b2cc4f02829a2b41c2a20afc19bd7">
+      <h1>Strategieforum 5</h1>
+      <div class="session">
+        <h2 class="title">5) STRATEGIEFORUM:
+          Die digitale Transformation gestalten – Erfolgreiche Cross-Channel Ansätze in der Praxis</h2>
+        <h3 class="location">Salon Dublin</h3>
+        <h3 class="time">16:30 - 18:00</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Markus Hepp, Partner &amp; Geschäftsführer, Leiter des Retail Sektors in Deutschland, The Boston Consulting Group GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Torsten Toeller, Gründer &amp; Vorsitzender der Geschäftsführung, Fressnapf Tiernahrungs GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Charles von Abercron, Global CEO, Beauty Trend Holding GmbH</p>
+        <div class="subsession">
+          <h3 class="title">Wie Händler die digitale Transformation aktiv gestalten können – Ohne zu ihrem Opfer zu werden</h3>
+          <h4 class="time">16:30 - 16:50</h4>
+          <div class="text">
+            <ul>
+              <li>Stärken des Amazon Geschäftsmodells und wie stationäre&nbsp;Händler&nbsp;damit konkurrieren können</li>
+              <li>Implikationen für stationäre Multi-Channel Händler in&nbsp;verschiedenen Sektoren</li>
+              <li>Erfolgsbeispiele aus der Praxis zum Umgang mit&nbsp;der digitalen Revolution</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Markus Hepp, Partner &amp; Geschäftsführer, Leiter des Retail Sektors in Deutschland, The Boston Consulting Group GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Die digitale Revolution bei Fressnapf</h3>
+          <h4 class="time">16:50 - 17:10</h4>
+          <div class="text">
+            <ul>
+              <li>Neue Dynamik im Wettbewerb durch alte und neue Mitbewerber</li>
+              <li>Cross-Channel, CRM und Best Partner</li>
+              <li>Neue Kompetenzen und die neue IT-Infrastruktur bei Fressnapf</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Torsten Toeller, Gründer &amp; Vorsitzender der Geschäftsführung, Fressnapf Tiernahrungs GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">Innovationen im Onlinehandel durch Shopping Communities</h3>
+          <h4 class="time">17:10 - 17:30</h4>
+          <div class="text">
+            <ul>
+              <li>Glossybox – Strategie und Wettbewerbsvorteil</li>
+              <li>Was macht das Geschäftsmodell attraktiv für Investoren wie Rocket Internet?</li>
+              <li>Social Media als Erfolgsstrategie im Abo-Commerce</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Charles von Abercron, Global CEO, Beauty Trend Holding GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">ROUND-TABLE:
+            Wie kann man Cross-Channel-Angebote ökonomisch erfolgreich machen?</h3>
+          <h4 class="time">17:30 - 18:00</h4>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Markus Hepp, Partner &amp; Geschäftsführer, Leiter des Retail Sektors in Deutschland, The Boston Consulting Group GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Torsten Toeller, Gründer &amp; Vorsitzender der Geschäftsführung, Fressnapf Tiernahrungs GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Charles von Abercron, Global CEO, Beauty Trend Holding GmbH</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="f2e415bf3c6c04d98ec80c72f48fad34">
+      <h1>Strategieforum 6</h1>
+      <div class="session">
+        <h2 class="title">6) STRATEGIEFORUM:
+          Jenseits von Multi-Channel – Zukünftige Rollenmodelle von Handel und Herstellern</h2>
+        <h3 class="location">Salon Wien</h3>
+        <h3 class="time">16:30 - 18:00</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Kerstin Lehmann, Partner, OC&amp;C Strategy Consultants GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Harald Meilicke, Beiratsvorsitzender, E. Breuninger GmbH &amp; Co.</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Angelika Schindler-Obenhaus, Vorstand, KATAG AG</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Stephan Swinka, CEO, Takko Fashion GmbH</p>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Erika Tertilt, Chief Financial Officer, Parfümerie Douglas GmbH</p>
+        <div class="subsession">
+          <h3 class="title">Von Herstellern und Händlern zu Markenmachern und Entertainern?</h3>
+          <h4 class="time">16:30 - 16:50</h4>
+          <div class="text">
+            <ul>
+              <li>Der große Strukturwandel – Auch für die „70 %“ offline</li>
+              <li>Zukünftig alles nur Plattform oder vertikal?</li>
+              <li>Herausforderungen für Rollenmodelle zwischen Handel und Hersteller</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Kerstin Lehmann, Partner, OC&amp;C Strategy Consultants GmbH</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">IMPULSE: 
+            Starke Händler vs. starke Marken?</h3>
+          <h4 class="time">16:50 - 17:20</h4>
+          <div class="text">
+            <ul>
+              <li>„Stationärhandel wird sich noch stärker auf die urbanen Zentren konzentrieren und dort auskömmlich mit Online koexistieren – Für alle anderen wird es schwierig“&nbsp;(Harald Meilicke)</li>
+              <li>„Klassisches Denken in Rollenmodellen hat ausgedient – Strategische Partnerschaften sind die Zukunft“&nbsp;(Angelika Schindler-Obenhaus)</li>
+              <li>„Online schafft Grundgesetze des&nbsp;Handels nicht ab – Aber verringert&nbsp;strukturell die Category Marge“ (Stephan Swinka)</li>
+            </ul>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Angelika Schindler-Obenhaus, Vorstand, KATAG AG</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Stephan Swinka, CEO, Takko Fashion GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Harald Meilicke, Beiratsvorsitzender, E. Breuninger GmbH &amp; Co.</p>
+        </div>
+        <div class="subsession">
+          <h3 class="title">ROUND-TABLE: 
+            Ein Blick in die Zukunft</h3>
+          <h4 class="time">17:20 - 18:00</h4>
+          <div class="text">
+            <p>Das Wahrscheinliche, das Mögliche und das&nbsp;Gewagte – Welche Rollenmodelle werden wir sehen,&nbsp;welche werden sich durchsetzen?</p>
+          </div>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Angelika Schindler-Obenhaus, Vorstand, KATAG AG</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Stephan Swinka, CEO, Takko Fashion GmbH</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Harald Meilicke, Beiratsvorsitzender, E. Breuninger GmbH &amp; Co.</p>
+          <p class="moderator"><b class="moderator_category black">Referent:</b> Erika Tertilt, Chief Financial Officer, Parfümerie Douglas GmbH</p>
+        </div>
+      </div>
+    </div>
+    <div class="track" id="4f402d7df6e2120d95ab6c9156592006">
+      <h1>Masterclass</h1>
+      <div class="session">
+        <h2 class="title">MASTERCLASS I: Mit einem Bein hinter Gittern? Onlinehandel mit Lebensmitteln in kritischer Phase …</h2>
+        <h3 class="location">Salon Paris</h3>
+        <h3 class="time">16:30 - 18:00</h3>
+        <p class="moderator"><b class="moderator_category">Moderator:</b> Thomas Radziwill, Leiter operatives Geschäft, Smart Data One GmbH</p>
+        <div class="text">
+          <ul>
+            <li>Verbraucher rufen zunehmend Informationen zu Produkten per Smartphone ab</li>
+            <li>EU-Lebensmittelinformations-Verordnung 1169/2011 setzt Foodbranche unter Druck</li>
+            <li>Produktdatenqualität ist kritischer Erfolgsfaktor&nbsp;für Onlinehandel mit Lebensmitteln</li>
+          </ul>
+          <p>Diese Masterclass erarbeitet mit den Teilnehmern die Herausforderungen&nbsp;für Industrie und Handel und zeigt Lösungsansätze, wie&nbsp;Unternehmen die Anforderungen bzgl. Produktdatenmanagement&nbsp;und Artikelidentifikation erfüllen können.</p>
+          <p>Daneben präsentieren&nbsp;Experten aus der Praxis konkrete Umsetzungsbeispiele, vermitteln&nbsp;hilfreiches Fachwissen und klären, welche Haftungsfragen sich aus der<br>
+            Verordnung ergeben. Zielgruppen sind Produktdatenverantwortliche&nbsp;aus Lebensmittelindustrie und -handel, Unternehmensvertreter aus&nbsp;den Bereichen QM, QS und Recht sowie alle, die an der Umsetzung&nbsp;der LMIV mitarbeiten.</p>
+        </div>
+        <p class="moderator"><b class="moderator_category black">Referent:</b> Alexander Pitzer, Rechtsanwalt, spezialisiert auf Lebensmittelrecht, Kanzlei Krell Weyland Grube</p>
+      </div>
+    </div>
+  </div>
+  <footer id="footer"> </footer>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script> 
+<script>
+  //<![CDATA[
+    window.jQuery || document.write("<script src='/javascripts/jquery.min.js'>\x3C/script>")
+  //]]>
+</script> 
+<script src="/javascripts/rails.js?1383321112" type="text/javascript"></script> 
+<script src="/javascripts/plugins.js?1383321112" type="text/javascript"></script> 
+<script src="/javascripts/application.js?1383321112" type="text/javascript"></script>
+</body>
+</html>
